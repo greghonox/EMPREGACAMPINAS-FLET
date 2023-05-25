@@ -1,4 +1,4 @@
 bs4
-flet
 lxml
 requests
+flet==0.4.0

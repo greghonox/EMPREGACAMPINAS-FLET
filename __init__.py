@@ -5,3 +5,4 @@ from os import environ
 
 
 environ["FLET_WS_MAX_MESSAGE_SIZE"] = "8000000"
+environ["FLET_SERVER_PORT"] = "8080"
