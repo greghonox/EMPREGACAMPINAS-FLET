@@ -39,4 +39,4 @@ def main(page: Page) -> None:
 
 
 if '__main__' == __name__:
-    app(target=main, assets_dir='assets', port=8080, view=WEB_BROWSER)
+    app(target=main, assets_dir='assets')
