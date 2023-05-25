@@ -25,7 +25,7 @@ class TableWidget(UserControl):
 
     def add_data_table(self, job: str, salary: str, beneficy: str,
             description: str, requirements: str, contact: str, url: str) -> None:
-        icon = '1.png'
+        icon = '{randing(1, 19)}.png'
         self.table.controls.append(
             Container(
                 bgcolor='yellow900',
